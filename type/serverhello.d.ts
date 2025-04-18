@@ -3,7 +3,7 @@ import { Version, Cipher, Extension } from "../src/dep.ts"
 /**
  * Represents a parsed TLS ServerHello message.
  * Extends `Uint8Array` to allow for binary manipulation directly.
- * @version __VERSION__
+ * @version 0.0.2
  */
 export class ServerHello extends Uint8Array {
   /** @internal */
