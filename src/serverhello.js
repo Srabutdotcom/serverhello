@@ -1,6 +1,6 @@
 //@ts-self-types="../type/serverhello.d.ts"
 import { Cipher, Extension, ExtensionType, KeyShareServerHello, unity, Selected_version, Uint16, Uint24, Version, KeyShareHelloRetryRequest } from "./dep.ts";
-import { parseItems } from "./utils.js";
+import { parseItems } from "./dep.ts";
 
 export class ServerHello extends Uint8Array {
    #legacy_version // 0x0303;    /* TLS v1.2 */
