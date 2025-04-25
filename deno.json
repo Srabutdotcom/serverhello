@@ -1,6 +1,6 @@
 {
   "name": "@tls/serverhello",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "exports": "./src/mod.ts",
   "publish": {
     "exclude": [
@@ -25,9 +25,9 @@
     }
   },
   "imports": {
-    "@aicone/byte": "jsr:@aicone/byte@^0.8.4",
-    "@tls/enum": "jsr:@tls/enum@^0.9.7",
-    "@tls/extension": "jsr:@tls/extension@^0.6.0",
+    "@aicone/byte": "jsr:@aicone/byte@^0.8.8",
+    "@tls/enum": "jsr:@tls/enum@^0.10.0",
+    "@tls/extension": "jsr:@tls/extension@^0.6.4",
     "@tls/parser": "jsr:@tls/parser@^0.0.3"
   }
 }
